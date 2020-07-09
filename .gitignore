@@ -1,0 +1,7 @@
+.settings/
+.project
+.classpath
+target/
+/.springBeans
+/.idea
+camunda-bpm-identity-keycloak-examples-sso-kubernetes.iml
