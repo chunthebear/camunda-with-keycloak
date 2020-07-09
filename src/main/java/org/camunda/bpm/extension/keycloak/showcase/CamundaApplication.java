@@ -41,6 +41,7 @@ public class CamundaApplication {
 	public void onPostDeploy(PostDeployEvent event) {
 		LOG.info("========================================");
 		LOG.info("Successfully started Camunda Showcase");
+		LOG.info("Customized by Yichun Zhao");
 		LOG.info("========================================");
 	}
 	
