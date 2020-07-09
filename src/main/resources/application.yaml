@@ -44,16 +44,16 @@ camunda.bpm:
     create: All tasks
   webapp:
     application-path: /
-    csrf:
-      enable-secure-cookie: true
-    header-security:
-      content-security-policy-disabled: false
-      content-security-policy-value:  base-uri 'self';
-        img-src 'self' data:;
-        block-all-mixed-content;
-        form-action 'self';
-        frame-ancestors 'none';
-        object-src 'none'
+#    csrf:
+#      enable-secure-cookie: true
+#    header-security:
+#      content-security-policy-disabled: false
+#      content-security-policy-value:  base-uri 'self';
+#        img-src 'self' data:;
+#        block-all-mixed-content;
+#        form-action 'self';
+#        frame-ancestors 'none';
+#        object-src 'none'
   job-execution:
     core-pool-size: ${JOB_CORE_POOL_SIZE:3}
     lock-time-in-millis: ${JOB_LOCK_TIME_MILLIS:300000}
